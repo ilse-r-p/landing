@@ -1,0 +1,42 @@
+.banner {
+  background-image: url(../../images/panoramic.jpg);
+  background-position: center;
+  color: white;
+  background-size: cover;
+  padding: 100px 0;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  height: 300px;
+/*  align-items: left;
+  justify-content: center;*/
+}
+
+.banner h1 {
+  margin-bottom: 0;
+  margin-left: 80px;
+  font-size: 65px;
+}
+
+.banner p {
+  margin: 30px 0;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.btn-primary {
+  color: white;
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  background: #6AD58B;
+  transition: background 0.3s ease;
+  margin-left: 80px;
+}
+
+.btn-primary:hover {
+  opacity: 1;
+  background: #3ac162;
+  text-decoration: none;
+  color: white;
+}
